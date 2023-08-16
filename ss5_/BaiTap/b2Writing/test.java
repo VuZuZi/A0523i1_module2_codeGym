@@ -8,7 +8,7 @@ public class test {
         System.out.println(s.toString());
         Scanner sc = new Scanner(System.in);
         System.out.print("Set name: ");
-        s.setName(sc.nextLine());
+//        s.setName(sc.nextLine());
         System.out.print("Set class: ");
         s.setClasses(sc.nextLine());
         System.out.println(s.toString());
