@@ -1,4 +1,4 @@
-package ss5_.bai_tap.b2Writing;
+package ss5_access_modifier.bai_tap.b2_writing;
 
 public class Students {
     private String name;
