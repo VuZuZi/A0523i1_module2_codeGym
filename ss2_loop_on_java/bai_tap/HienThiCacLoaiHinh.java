@@ -20,9 +20,12 @@ public class HienThiCacLoaiHinh {
             switch (op){
                 case 1:
                     System.out.println("Rectangle");
-                    System.out.println("************");
-                    System.out.println("************");
-                    System.out.println("************\n");
+                    for (int i = 0; i < 3; i++) {
+                        for (int j = 0; j < 6; j++) {
+                            System.out.print("* ");
+                        }
+                        System.out.println();
+                    }
                     break;
                 case 2:
                     System.out.println("Vị trí góc vuông");
@@ -33,32 +36,65 @@ public class HienThiCacLoaiHinh {
                     int opp = sc.nextInt();
                     switch (opp){
                         case 1:
-                            System.out.println("*********");
-                            System.out.println("*******");
-                            System.out.println("*****");
-                            System.out.println("***");
-                            System.out.println("*");
+                            for (int i = 0; i < 6; i++) {
+                                for (int j = i; j < 5; j++) {
+                                    System.out.print(" * ");
+                                }
+                                for (int j = 0; j < i; j++) {
+                                    System.out.print("   ");
+                                }
+                                System.out.println();
+                            }
                             break;
                         case 2:
-                            System.out.println("*********");
-                            System.out.println("  *******");
-                            System.out.println("    *****");
-                            System.out.println("      ***");
-                            System.out.println("        *");
+                            for (int i = 0; i < 6; i++) {
+                                for (int j = 0; j < i; j++) {
+                                    System.out.print("   ");
+                                }
+                                for (int j = i; j < 5; j++) {
+                                    System.out.print(" * ");
+                                }
+                                System.out.println();
+                            }
+
+//                            System.out.println("*********");
+//                            System.out.println("  *******");
+//                            System.out.println("    *****");
+//                            System.out.println("      ***");
+//                            System.out.println("        *");
                             break;
                         case 3:
-                            System.out.println("* ");
-                            System.out.println("*** ");
-                            System.out.println("***** ");
-                            System.out.println("*******");
-                            System.out.println("*********");
+                            for (int i = 0; i < 6; i++) {
+                                for (int j = 0; j <= i ; j++) {
+                                    System.out.print(" * ");
+                                }
+                                for (int j = 6; j > i ; j--) {
+                                    System.out.print("   ");
+                                }
+                                System.out.println();
+                            }
+//                            System.out.println("* ");
+//                            System.out.println("*** ");
+//                            System.out.println("***** ");
+//                            System.out.println("*******");
+//                            System.out.println("*********");
                             break;
                         case 4:
-                            System.out.println("        *");
-                            System.out.println("      ***");
-                            System.out.println("    *****");
-                            System.out.println("  *******");
-                            System.out.println("*********");
+                            for (int i = 0; i < 6; i++) {
+                                for (int j = 6; j > i ; j--) {
+                                    System.out.print("   ");
+                                }
+                                for (int j = 0; j <= i ; j++) {
+                                    System.out.print(" * ");
+                                }
+                                System.out.println();
+                            }
+
+//                            System.out.println("        *");
+//                            System.out.println("      ***");
+//                            System.out.println("    *****");
+//                            System.out.println("  *******");
+//                            System.out.println("*********");
                             break;
                         default:
                             System.out.println("---");
@@ -66,11 +102,20 @@ public class HienThiCacLoaiHinh {
                     }
                     break;
                 case 3:
-                    System.out.println("        *    ");
-                    System.out.println("      *****  ");
-                    System.out.println("    *********    ");
-                    System.out.println("  *************    ");
-                    System.out.println("*****************  ");
+                    for (int i = 0; i < 6; i++) {
+                        for (int j = 6; j > i ; j--) {
+                            System.out.print("   ");
+                        }
+                        for (int j = 0; j < (i*2)+1; j++) {
+                            System.out.print(" * ");
+                        }
+                        System.out.println();
+                    }
+//                    System.out.println("        *    ");
+//                    System.out.println("      *****  ");
+//                    System.out.println("    *********    ");
+//                    System.out.println("  *************    ");
+//                    System.out.println("*****************  ");
                     break;
                 case 4:
                     check = false;
