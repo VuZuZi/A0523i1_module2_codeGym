@@ -1,14 +1,10 @@
-package ss6_ke_thua.bai_tap.circle_and_cylinder;
+package ss7_abstract_class_va_interface.bai_tap.resizeable;
 
-public class Circle {
+public class Circle implements Resizeable{
     private double radios;
     private String color;
 
     public Circle() {
-    }
-
-    public Circle(double radios) {
-        this.radios = radios;
     }
 
     public Circle(double radios, String color) {
@@ -42,5 +38,10 @@ public class Circle {
                 "radios=" + radios +
                 ", color='" + color + '\'' +
                 '}';
+    }
+
+    @Override
+    public void resize(double percent) {
+        this.radios = this.radios*percent/100;
     }
 }

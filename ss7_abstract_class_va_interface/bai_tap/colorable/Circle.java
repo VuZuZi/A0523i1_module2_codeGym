@@ -1,14 +1,12 @@
-package ss6_ke_thua.bai_tap.circle_and_cylinder;
+package ss7_abstract_class_va_interface.bai_tap.colorable;
 
-public class Circle {
+import ss7_abstract_class_va_interface.bai_tap.resizeable.Resizeable;
+
+public class Circle extends Shape{
     private double radios;
     private String color;
 
     public Circle() {
-    }
-
-    public Circle(double radios) {
-        this.radios = radios;
     }
 
     public Circle(double radios, String color) {
@@ -43,4 +41,6 @@ public class Circle {
                 ", color='" + color + '\'' +
                 '}';
     }
+
+
 }
