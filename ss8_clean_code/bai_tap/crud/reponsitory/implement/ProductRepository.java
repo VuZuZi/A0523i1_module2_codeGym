@@ -32,7 +32,7 @@ public class ProductRepository implements IProductRepository {
     public void updateProduct(int id) {
         boolean check = false;
         for (int i = 0; i < products.length; i++) {
-            if (products[i].getId()==id){
+            if (products[i] != null && products[i].getId() == id){
                 check = true;
                 System.out.println("choose update\n" +
                         "1. update name\n" +
@@ -64,9 +64,12 @@ public class ProductRepository implements IProductRepository {
     public void deleteProduct(int id) {
         boolean check = false;
         for (int i = 0; i < products.length; i++) {
-            if (products[i].getId() == id){
+            if (products[i] != null && products[i].getId() == id){
                 check =  true;
                 products[i] = null;
+                break;
+            }
+            if (products[i] == null){
                 break;
             }
         }
