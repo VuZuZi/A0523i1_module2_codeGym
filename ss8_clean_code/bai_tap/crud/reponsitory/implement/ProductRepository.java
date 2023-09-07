@@ -67,12 +67,7 @@ public class ProductRepository implements IProductRepository {
             if (products[i].getId() == id){
                 check =  true;
                 products[i] = null;
-                for (int j = i; j < products.length; j++) {
-                    products[j] = products[j+1];
-                    if (products[j]==null){
-                        break;
-                    }
-                }
+                break;
             }
         }
         if (!check){

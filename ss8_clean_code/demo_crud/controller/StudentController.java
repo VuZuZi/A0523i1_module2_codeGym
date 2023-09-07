@@ -1,7 +1,7 @@
 package ss8_clean_code.demo_crud.controller;
 
+import ss8_clean_code.demo_crud.service.impl.StudentService;
 import ss8_mvc.service.IStudentService;
-import ss8_mvc.service.impl.StudentService;
 
 import java.util.Scanner;
 
