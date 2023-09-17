@@ -60,5 +60,83 @@ public class ConvertNumber {
         }
         System.out.println("Binary: "+binary+" = Decimal: "+decimal);
     }
+    public void decimalToHex(int dec){
+        Stack<String> stack = new Stack<>();
+        int thuongSo = dec;
+        int soDu = -1;
+        while (soDu != 0){
+            soDu = thuongSo % 16;
+            switch (soDu){
+                case 10:
+                    stack.push("A");
+                    break;
+                case 11:
+                    stack.push("B");
+                    break;
+                case 12:
+                    stack.push("C");
+                    break;
+                case 13:
+                    stack.push("D");
+                    break;
+                case 14:
+                    stack.push("E");
+                    break;
+                case 15:
+                    stack.push("F");
+                    break;
+                default:
+                    stack.push(String.valueOf(soDu));
+            }
+            thuongSo = thuongSo / 16;
+        }
+        System.out.print("Dec: "+dec+" = Hex: ");
+        int size = stack.size();
+        stack.pop();
+        for (int i = 0; i < size-1; i++) {
+            System.out.print(stack.pop());
+        }
+        System.out.println();
+    }
+    public void hexToDec(String hex){
+        int size = hex.length();
+        hex = hex.toUpperCase();
+        int dec = 0;
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < size; i++) {
+            stack.push(hex.charAt(i));
+//            System.out.println(i +" "+hex.charAt(i));
+        }
+        for (int i = 0; i < size; i++) {
+            char temp = stack.pop();
+            switch (temp){
+                case 'A':
+                    dec = dec + 10*(int) Math.pow(16,i);
+                    break;
+                case 'B':
+                    dec = dec + 11*(int) Math.pow(16,i);
+                    break;
+                case 'C':
+                    dec = dec + 12*(int) Math.pow(16,i);
+                    break;
+                case 'D':
+                    dec = dec + 13*(int) Math.pow(16,i);
+                    break;
+                case 'E':
+                    dec = dec + 14*(int) Math.pow(16,i);
+                    break;
+                case 'F':
+                    dec = dec + 15*(int) Math.pow(16,i);
+                    break;
+                default:
+                    dec = dec + (int)(temp - '0')*(int) Math.pow(16,i);
+            }
+        }
+        System.out.println("Hex: "+hex+" = Dec: "+dec);
+
+            }
+
+
+
 
 }
