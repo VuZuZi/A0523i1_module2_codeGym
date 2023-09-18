@@ -1,6 +1,6 @@
-package ss12_java_collection_freamwork.thuc_hanh.hashMap_hashSet;
+package ss12_java_collection_freamwork.thuc_hanh.comparable_comparator;
 
-public class Student {
+public class Student implements Comparable<Student>{
     private String name;
     private int age;
     private String address;
@@ -46,4 +46,10 @@ public class Student {
                 ", address='" + address + '\'' +
                 '}';
     }
+
+
+    public int compareTo(Student o) {
+        return this.name.compareTo(o.name);
+    }
+
 }
