@@ -3,7 +3,7 @@ package ss12_java_collection_freamwork.bai_tap.arrayList_linkedList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ManagerProduct {
+public class ManagerProductArrayList {
     Scanner sc = new Scanner(System.in);
     private static ArrayList<Product> productArrayList = new ArrayList<>();
 
