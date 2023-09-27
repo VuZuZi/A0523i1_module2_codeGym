@@ -33,17 +33,27 @@ public class Main {
     }
     static int[] insertionSort(int[] list){//chen
         int x,post;
-        int[] subList = new int[list.length];
-        for (int i = 0; i < list.length; i++) {
-            for (int j = 0; j < ; j++) {
-                
+        int[] subList = new int[list.length-1];
+        for (int i = 0; i < list.length-1; i++) {
+            x = list[i];
+            post = i;
+            subList[i] = x;
+            for (int j = 0; j <= i ; j++) {
+               if (subList[i] <= subList[j]){
+                   post = j;
+                   break;
+               }
             }
+            int temp = subList[post];
+            subList[post] = subList[i];
+            subList[i] = temp;
         }
+        return subList;
     }
 
     public static void main(String[] args) {
         int[] list = {1,5,4,2,3,6,9,7,8};
-        list = selectionSort(list);
+        list = insertionSort(list);
         for (int i = 0; i < list.length; i++) {
             System.out.print(list[i] + " ");
         }
