@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a172e9f-cc28-4cd3-817d-54e5da196651" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/io_file_tex.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_binary_file/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16_io_text_file/practive/number.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_io_text_file/practive/number.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2TWHlumyEW64gP2CuPpPHK6NOXN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "/Users/vuzuzi/Documents/GitHub/module2/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo" />
+      <recent name="$PROJECT_DIR$/temp" />
+      <recent name="$PROJECT_DIR$/ss11_dsa_stack_queue" />
+      <recent name="$PROJECT_DIR$/ss10_danh_sach" />
+      <recent name="$PROJECT_DIR$/ss8_clean_code" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ss7_abstract_class_va_interface.bai_tap.colorable" />
+      <recent name="ss7_abstract_class_va_interface.bai_tap.resizeable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_exeption_debug.execise.illegal_triangle_ex.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss15_exeption_debug.execise.illegal_triangle_ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17_binary_file.Test" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss17_binary_file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss16_io_text_file.excise.copy_file_text.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.excise.copy_file_text.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16_io_text_file.excise.copy_file_text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss16_io_text_file.excise.doc_file_csv.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.excise.doc_file_csv.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16_io_text_file.excise.doc_file_csv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss16_io_text_file.practive.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.practive.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16_io_text_file.practive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ss16_io_text_file.excise.doc_file_csv.Main" />
+        <item itemvalue="Application.ss16_io_text_file.excise.copy_file_text.Main" />
+        <item itemvalue="Application.ss16_io_text_file.practive.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a172e9f-cc28-4cd3-817d-54e5da196651" name="Changes" comment="" />
+      <created>1691152071030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691152071030</updated>
+      <workItem from="1691152072319" duration="12000" />
+      <workItem from="1691152090376" duration="694000" />
+      <workItem from="1691419316432" duration="25132000" />
+      <workItem from="1691762811432" duration="337000" />
+      <workItem from="1692016281878" duration="5002000" />
+      <workItem from="1692093143768" duration="128000" />
+      <workItem from="1692182663679" duration="3944000" />
+      <workItem from="1692284996138" duration="5541000" />
+      <workItem from="1693210709463" duration="9034000" />
+      <workItem from="1693400213228" duration="3673000" />
+      <workItem from="1693840423966" duration="3803000" />
+      <workItem from="1693901971324" duration="1293000" />
+      <workItem from="1693906333487" duration="35000" />
+      <workItem from="1693927186415" duration="10068000" />
+      <workItem from="1693997933724" duration="12977000" />
+      <workItem from="1694054235969" duration="2745000" />
+      <workItem from="1694166223689" duration="7973000" />
+      <workItem from="1694603417926" duration="8609000" />
+      <workItem from="1694704598879" duration="328000" />
+      <workItem from="1694759479500" duration="4297000" />
+      <workItem from="1695044083592" duration="141000" />
+      <workItem from="1695044583053" duration="2769000" />
+      <workItem from="1695388284603" duration="4381000" />
+      <workItem from="1695456036022" duration="5088000" />
+      <workItem from="1695812044323" duration="9370000" />
+      <workItem from="1695991454994" duration="1517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ss11_dsa_stack_queue/thuc_hanh/stack_array/MyStack.java</url>
+          <line>39</line>
+          <properties class="ss11_dsa_stack_queue.thuc_hanh.stack_array.MyStack" method="size">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss11_dsa_stack_queue/bai_tap_optional/thap_phan_to_nhi_phan/ConvertNumber.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss11_dsa_stack_queue/bai_tap_optional/thap_phan_to_nhi_phan/main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss11_dsa_stack_queue/bai_tap_optional/thap_phan_to_nhi_phan/ConvertNumber.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss11_dsa_stack_queue/bai_tap_optional/thap_phan_to_nhi_phan/ConvertNumber.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss11_dsa_stack_queue/bai_tap_optional/thap_phan_to_nhi_phan/ConvertNumber.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss14_sort_algorithms/practive/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss14_sort_algorithms/exercise/description_selection_sort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

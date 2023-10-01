@@ -1,4 +1,4 @@
-package ss8_mvc.service;
+package ss8_clean_code.demo_crud.service;
 
 public interface IStudentService {
     void display();
