@@ -1,10 +1,12 @@
 package ss17_binary_file;
 
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
 public class Test {
+
     public static void main(String[] args) throws IOException {
         InputStream is = System.in;
 //        while (true) {
@@ -18,7 +20,7 @@ public class Test {
 //            System.out.println("char is " + (char) ch);
 //        }
 
-        is = new FileInputStream("/Users/vuzuzi/Documents/GitHub/module2/ss17_binary_file/data/file.txt");
+        is = new FileInputStream("/Users/mark/dev/code_gym/A0523i1_module2_codeGym/ss17_binary_file/data/file.txt");
         int i = -1;
         while ((i = is.read()) != -1){
             System.out.print((char)i);
